@@ -69,9 +69,6 @@ const put = async (persona,id) => {
             average: persona.average
         }),
         });
-
-        const result = await response.json();
-        console.log(result)
     } catch (error) {
         console.log('put:', error)
     }
